@@ -31,4 +31,4 @@ def voice():
     return Response(r.content, mimetype="audio/mp3")
 
 
-app.run()
+app.run(host='0.0.0.0', port=3000)
